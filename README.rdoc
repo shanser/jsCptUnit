@@ -36,4 +36,8 @@ To run JavaScript in command line, I use Mozilla's SpiderMonkey engine (http://w
 
 == Example
 
-This tool comes with an example. An implementation of the problem 'Rent your airplane and make money' that was made in TDD using jsCptUnit. You'll find further information on the project here : http://acmicpc-live-archive.uva.es/nuevoportal/data/problem.php?p=2942 
+This tool comes with an example. An implementation of the problem 'Rent your airplane and make money' that was made in TDD using jsCptUnit. You'll find further information on the project here : http://acmicpc-live-archive.uva.es/nuevoportal/data/problem.php?p=2942
+
+== Feedback
+
+I'd be pleased to have any feedbacks. You can follow me on twitter @captivestudio or via the website http://www.captive-studio.Com 

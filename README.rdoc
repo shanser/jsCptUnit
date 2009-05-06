@@ -40,4 +40,4 @@ This tool comes with an example. An implementation of the problem 'Rent your air
 
 == Feedback
 
-I'd be pleased to have any feedbacks. You can follow me on twitter @captivestudio or via the website http://www.captive-studio.Com 
+I'd be pleased to have any feedbacks. You can follow me on twitter @captivestudio or via the website http://www.captive-studio.com 

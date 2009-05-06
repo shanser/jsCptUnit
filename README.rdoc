@@ -1,3 +1,39 @@
 = jsCptUnit
 
-A simple Unit Test Framework for JavaScript.
+A simple Unit Test Framework for JavaScript. The idea of this framework came when I started to learn the language. As a TDD programmer, I needed at least a xUnit style framework but I couldn't find one that runs in a terminal. Maybe I didn't search well, or maybe I was simply enthousiast with the exercise but I choose to write on myself, jsCptUnit was born.
+
+== Quick overview
+
+jsCptUnit is meant to be used like any xUnit framework. It just shown some slighty difference in order to be match with the language.
+
+	load('jsCptUnit.js');
+	
+	function ClassTest() {
+		TestCase.call(this)
+		
+		setup(function() {
+			// some setup stuff
+		})
+		
+		test('should assert equal', function() {
+			assertEqual(1, 1);
+		})
+		
+		test('should assert', function() {
+			assert(true);
+		})
+		
+		teardown(function() {
+			// some teardown stuff
+		})
+	}
+	
+	new ClassTest().run();
+
+== Requirements
+
+To run JavaScript in command line, I use Mozilla's SpiderMonkey engine (http://www.mozilla.org/js/spidermonkey) and its specific "load" instruction.
+
+== Example
+
+This tool comes with an example. An implementation of the problem 'Rent your airplane and make money' that was made in TDD using jsCptUnit. You'll find further information on the project here : http://acmicpc-live-archive.uva.es/nuevoportal/data/problem.php?p=2942 
